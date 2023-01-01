@@ -381,7 +381,6 @@ p {
 
 #bathroom .image {
     background-image: url(../images/bathroom.webp);
-    color: #000;
 }
 
 #painting .image {
@@ -398,7 +397,6 @@ p {
 
 #kitchen .image {
     background-image: url(../images/kitchen.jpeg);
-    color: #000;
 
 }
 
@@ -462,10 +460,6 @@ p {
     padding-top: 10px;
 }
 
-.uil-location-pin-alt {
-    color: rgb(8, 23, 241);
-    font-size: 36px;
-}
 
 .uil-eye {
     color: #7aa90480;
@@ -489,7 +483,7 @@ p {
 
 .uil-bolt {
     font-size: 36px;
-    color: #ffff00;
+    color: #9c9c34;
 }
 
 .uil-shield-check {
@@ -702,13 +696,9 @@ form button {
     color: #0e6045;
 }
 
-.contact-details span .uil-whatsapp {
-    color: #7fff7f;
-}
-
 footer {
     text-align: center;
-    margin: 100px 0 0 0;
+    margin-top: 100px;
     background: rgba(154, 164, 169, 0.3);
 }
 
