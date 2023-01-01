@@ -731,16 +731,19 @@ footer .links ul li a {
     text-decoration: none;
 }
 
-footer .links .footer__menu {
-    padding-top: 30px;
-}
 
 footer .links .socials a {
     font-size: 36px;
     color: rgb(47, 60, 66);
 }
 
-footer .links .socials {
+footer .links .location h4 {
+    margin-bottom: 15px;
+}
+
+footer .links .socials,
+footer .links .footer__menu,
+footer .links .location {
     padding-top: 30px;
 }
 
