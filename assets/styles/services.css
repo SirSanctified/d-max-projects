@@ -50,7 +50,14 @@ h6 {
     margin: 10px 0 10px 0;
 }
 
-img {
+footer .location h4 {
+    text-align: start;
+    margin: inherit;
+}
+
+.renovations img,
+.paving img,
+.pool img {
     width: 70%;
     height: 300px;
     display: block;
