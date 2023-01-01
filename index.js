@@ -35,14 +35,16 @@ faqs.forEach(faq => {
 })
 
 // nav bar
-
+const nav = document.querySelector('nav')
 const menu = document.querySelector('.nav__menu')
 const openMenu = document.querySelector('#open-menu')
 const closeMenu = document.querySelector('#close-menu')
 
 openMenu.addEventListener('click', () => {
+    nav.style.display = 'block'
+    nav.style.height = 'max-content'
     menu.style.display = 'block'
-    closeMenu.style.display = 'inline-block'
+    closeMenu.style.display = 'block'
     openMenu.style.display = 'none'
 })
 
